@@ -20,7 +20,7 @@ class ExampleHyperHeuristic():
     def run(self):
         self.chesc.startTimer()
         current_fitness = float('inf')
-        while (not self.chesc.hasRuntimeExpired()):
+        while not self.chesc.hasRuntimeExpired():
             op = random.choice(self.operators)
             new_fitness = self.problem.applyHeuristic(op, 0, 1)
             delta = current_fitness - new_fitness
