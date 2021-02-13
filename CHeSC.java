@@ -13,7 +13,7 @@ public class CHeSC extends HyperHeuristic {
 	}
 
     public void startTimer() {
-		//starts the timer, and then calls the solve() method
+        //starts the timer, and then calls the solve() method
         run();
     }
 
