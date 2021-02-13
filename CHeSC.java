@@ -6,14 +6,14 @@ public class CHeSC extends HyperHeuristic {
 
     private String name = "CHeSC HyperHeuristic";
 
-	public CHeSC(long seed, long timeLimit, ProblemDomain problem){
-		super(seed);
+    public CHeSC(long seed, long timeLimit, ProblemDomain problem){
+        super(seed);
         setTimeLimit(timeLimit);
         loadProblemDomain(problem);
-	}
+    }
 
     public void startTimer() {
-		//starts the timer, and then calls the solve() method
+        //starts the timer, and then calls the solve() method
         run();
     }
 
@@ -30,7 +30,7 @@ public class CHeSC extends HyperHeuristic {
         this.name = name;
     }
 
-	public String toString() {
-		return name;
-	}
+    public String toString() {
+        return name;
+    }
 }
