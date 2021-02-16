@@ -1,6 +1,6 @@
 # HyFlex-python
 Allows the implementation of Hyper-Heuristics in Python using the problems and
-heuristics provided by the
+heuristics from the
 [HyFlex](http://www.asap.cs.nott.ac.uk/external/chesc2011/hyflex_description.html)
 Java Framework. It relies on [Py4J](https://www.py4j.org/) to create a
 connection between the Python interpreter and the JVM.
