@@ -22,6 +22,7 @@ public class CHeSC extends HyperHeuristic {
     public void solve(ProblemDomain problem) {}
 
     //exposes the protected hasTimeExpired method
+    //this method does NOT account for the time elapsed in python
     public boolean hasRuntimeExpired() {
         return hasTimeExpired();
     }
